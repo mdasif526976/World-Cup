@@ -1,0 +1,217 @@
+/* -----------common style----------------
+------- */
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kaushan Script', cursive;
+    width: 1600px;
+    height: 2534px;
+    background-color:#FFFFFF;
+}
+/* ----------------section style----------
+-------------------- */
+.container{
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 613px;
+    margin-top: 41px;
+    margin-left:39px;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+
+}
+.head-tittle{
+    width: 531px;
+    height: 424px;
+}
+.h-text{
+    color: #FFFFFF;
+    width: 531px;
+    height: 270px;
+    font-size: 76px;
+    font-weight: 700px;
+    margin-top: 41px;
+}
+.p-text{
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 506px;
+    margin-bottom: 30px;
+}
+.ankor{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.side-image img{
+    width: 581px;
+    height: 613px;
+   
+}
+
+/*------------------- new section style-----------------
+---------------------------------- */
+.ankor-buttons a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left:30px;
+    text-decoration: none;
+    background-color: #ffffff;
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    color: #000000;
+}
+#red{
+    background-color: #DD0000;
+    cursor: pointer;
+}
+.columns{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 10px;
+}
+.link-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px;
+    width: 20%;
+}
+.font{
+    display: flex;
+    gap: 60px;
+}
+.blog{
+    margin: 40px;
+}
+.blog h2{
+    border: 1px solid black;
+    width: 20%;
+}
+
+footer{
+    text-align: center;
+    background-color: #161616;
+    width: 1465px;
+    color: #FFFFFF;
+    height: 444px;
+    padding-top: 60px;
+}
+/*--------------------------------------- media quray for smartphone--------------------
+ --------------------------------------------------------------------------------*/
+@media only screen and (max-width:688px) {
+    .container{
+        width: 341px;
+        height: 706px;
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+    
+    .container-2{
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+    .h-text{
+        font-size: 22px;
+        width: 228px;
+        height: 66px;
+    }
+    .p-text{
+        font-size: 16px;
+        width: 258px;
+        height: 138px;
+        margin-bottom: 55px;
+    }
+    .side-image img{
+        width: 310px;
+        height: 256px;
+        padding-left: 29px;
+    }
+    .ankor{
+        width: 161px;
+        height: 40px;
+        
+    }
+    .blogs{
+        width: 738px;
+    }
+    .columns{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        text-align: center;
+        background-color: #161616;
+        width:52%;
+        color: #FFFFFF;
+        height: 414px;
+    }
+}
+    /*------------------------- media quray end for mobile------------------
+    ------------------------------------- */
+    /*--------------------------------------------------
+     media quray for tablet----------------------------------------- */
+     @media screen and (min-width:689px) and (max-width:1023px) {
+        .container{
+            width: 734px;
+            height: 398px;
+            margin: 35px;
+        }
+        .container-2{
+            flex-direction: row;
+            align-items: flex-start;
+           
+        }
+        .head-tittle{
+            padding-left: 20px;
+        }
+        .h-text{
+            font-size: 22px;
+            width: 228px;
+            height: 66px;
+            }
+            .p-text{
+                font-size: 16px;
+                width: 258px;
+                height: 138px;
+                margin-bottom: 55px;
+            }
+        
+        .p-text{
+            font-size: 16px;
+            width: 258px;
+            height: 138px;
+            margin-bottom: 55px;
+        }
+        .side-image img{
+            width: 330px;
+            height: 392px;
+     }
+     .columns{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    footer{
+        text-align: center;
+        background-color: #161616;
+        width: 96%;
+        color: #FFFFFF;
+        height: 414px;
+    }
+    }
+    /*--------------------- madia quray for tab end---------------------
+    ------------ */
+
+
+
